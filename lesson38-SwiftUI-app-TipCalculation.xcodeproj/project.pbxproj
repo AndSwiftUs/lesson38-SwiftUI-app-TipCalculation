@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4975096428775655006A37E4 /* lesson38_SwiftUI_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975096328775655006A37E4 /* lesson38_SwiftUI_appApp.swift */; };
+		4975096428775655006A37E4 /* lesson38_SwiftUI_appApp_TipCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975096328775655006A37E4 /* lesson38_SwiftUI_appApp_TipCalculation.swift */; };
 		4975096628775655006A37E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975096528775655006A37E4 /* ContentView.swift */; };
 		4975096828775657006A37E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4975096728775657006A37E4 /* Assets.xcassets */; };
 		4975096B28775657006A37E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4975096A28775657006A37E4 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4975096028775655006A37E4 /* lesson38-SwiftUI-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lesson38-SwiftUI-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4975096328775655006A37E4 /* lesson38_SwiftUI_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson38_SwiftUI_appApp.swift; sourceTree = "<group>"; };
+		4975096028775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lesson38-SwiftUI-app-TipCalculation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4975096328775655006A37E4 /* lesson38_SwiftUI_appApp_TipCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson38_SwiftUI_appApp_TipCalculation.swift; sourceTree = "<group>"; };
 		4975096528775655006A37E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4975096728775657006A37E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4975096A28775657006A37E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		4975095728775655006A37E4 = {
 			isa = PBXGroup;
 			children = (
-				4975096228775655006A37E4 /* lesson38-SwiftUI-app */,
+				4975096228775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation */,
 				4975096128775655006A37E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,21 +43,21 @@
 		4975096128775655006A37E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4975096028775655006A37E4 /* lesson38-SwiftUI-app.app */,
+				4975096028775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4975096228775655006A37E4 /* lesson38-SwiftUI-app */ = {
+		4975096228775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation */ = {
 			isa = PBXGroup;
 			children = (
-				4975096328775655006A37E4 /* lesson38_SwiftUI_appApp.swift */,
+				4975096328775655006A37E4 /* lesson38_SwiftUI_appApp_TipCalculation.swift */,
 				4975096528775655006A37E4 /* ContentView.swift */,
 				4975096728775657006A37E4 /* Assets.xcassets */,
 				4975096928775657006A37E4 /* Preview Content */,
 			);
-			path = "lesson38-SwiftUI-app";
-			sourceTree = "<group>";
+			path = "lesson38-SwiftUI-app-TipCalculation";
+			sourceTree = SOURCE_ROOT;
 		};
 		4975096928775657006A37E4 /* Preview Content */ = {
 			isa = PBXGroup;
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4975095F28775655006A37E4 /* lesson38-SwiftUI-app */ = {
+		4975095F28775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4975096E28775657006A37E4 /* Build configuration list for PBXNativeTarget "lesson38-SwiftUI-app" */;
+			buildConfigurationList = 4975096E28775657006A37E4 /* Build configuration list for PBXNativeTarget "lesson38-SwiftUI-app-TipCalculation" */;
 			buildPhases = (
 				4975095C28775655006A37E4 /* Sources */,
 				4975095D28775655006A37E4 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "lesson38-SwiftUI-app";
+			name = "lesson38-SwiftUI-app-TipCalculation";
 			productName = "lesson38-SwiftUI-app";
-			productReference = 4975096028775655006A37E4 /* lesson38-SwiftUI-app.app */;
+			productReference = 4975096028775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4975095B28775655006A37E4 /* Build configuration list for PBXProject "lesson38-SwiftUI-app" */;
+			buildConfigurationList = 4975095B28775655006A37E4 /* Build configuration list for PBXProject "lesson38-SwiftUI-app-TipCalculation" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4975095F28775655006A37E4 /* lesson38-SwiftUI-app */,
+				4975095F28775655006A37E4 /* lesson38-SwiftUI-app-TipCalculation */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4975096628775655006A37E4 /* ContentView.swift in Sources */,
-				4975096428775655006A37E4 /* lesson38_SwiftUI_appApp.swift in Sources */,
+				4975096428775655006A37E4 /* lesson38_SwiftUI_appApp_TipCalculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,11 +262,10 @@
 		4975096F28775657006A37E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lesson38-SwiftUI-app/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"lesson38-SwiftUI-app-TipCalculation/Preview Content\"";
 				DEVELOPMENT_TEAM = UH3GS9823U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -275,12 +274,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AndSwiftUs.lesson38-SwiftUI-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "AndSwiftUs.lesson38-SwiftUI-app-TipCalculation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,11 +291,10 @@
 		4975097028775657006A37E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"lesson38-SwiftUI-app/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"lesson38-SwiftUI-app-TipCalculation/Preview Content\"";
 				DEVELOPMENT_TEAM = UH3GS9823U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,12 +303,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AndSwiftUs.lesson38-SwiftUI-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "AndSwiftUs.lesson38-SwiftUI-app-TipCalculation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4975095B28775655006A37E4 /* Build configuration list for PBXProject "lesson38-SwiftUI-app" */ = {
+		4975095B28775655006A37E4 /* Build configuration list for PBXProject "lesson38-SwiftUI-app-TipCalculation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4975096C28775657006A37E4 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4975096E28775657006A37E4 /* Build configuration list for PBXNativeTarget "lesson38-SwiftUI-app" */ = {
+		4975096E28775657006A37E4 /* Build configuration list for PBXNativeTarget "lesson38-SwiftUI-app-TipCalculation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4975096F28775657006A37E4 /* Debug */,
